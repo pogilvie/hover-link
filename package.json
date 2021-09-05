@@ -1,7 +1,7 @@
 {
-  "name": "hover-link",
+  "name": "hoverlink",
 	"displayName": "Hover Link",
-	"description": "Automatically create links given patterns in a markdown file",
+	"description": "",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.60.0"
@@ -10,16 +10,10 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:hover-link.helloWorld"
+      "onLanguage:markdown"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "hover-link.helloWorld",
-				"title": "Hello World"
-			}
-		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
